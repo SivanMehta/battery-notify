@@ -1,2 +1,5 @@
-# battery-notify
-Generate a push notification when your battery status reaches a certain amount
+A small script that tells your battery on your Mac is full
+
+```sh
+./run
+```

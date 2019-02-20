@@ -1,7 +1,7 @@
 #!/bin/bash
 
 check-battery () {
-  while [[ $(pmset -g batt | grep 98%) ]]; do
+  while [[ $(pmset -g batt | grep 100%) ]]; do
     sleep 1
   done
 
