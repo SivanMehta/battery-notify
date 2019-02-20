@@ -1,0 +1,11 @@
+#!/bin/bash
+
+check-battery () {
+  while [[ $(pmset -g batt | grep 98%) ]]; do
+    sleep 1
+  done
+
+  osascript -e 'display notification "Your computer is charged!" with title "All Done!"'
+}
+
+check-battery &>/dev/null &
