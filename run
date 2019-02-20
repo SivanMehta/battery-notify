@@ -1,7 +1,7 @@
 #!/bin/bash
 
 check-battery () {
- while [[ $(pmset -g batt | grep $1%) ]]; do
+ while [[ $(pmset -g batt | grep -v $1% | grep -v "Now drawing") ]]; do
     sleep 1
   done
   text="\"Your computer has reached $1%!\""
