@@ -1,4 +1,4 @@
-A small script that tells the battery on a Mac has reached a certain point.
+A small script that when tells the battery on a Mac has reached a certain point.
 
 ```sh
 ./run 10
