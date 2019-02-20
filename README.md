@@ -1,5 +1,7 @@
-A small script that tells your battery on your Mac is full
+A small script that tells the battery on a Mac has reached a certain point.
 
 ```sh
-./run
+./run 10
 ```
+
+![](push.png)
